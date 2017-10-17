@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Sell Outs</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="picker">Problem Picker</string>
+    <string name="creator">Problem Creator</string>
+    <string name="random">Problem Generator</string>
+    <string name="rules">Rules</string>
+    <string name="help">Help</string>
+    <string name="share">Share</string>
+    <string name="send">Send Feedback</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="app_title">Sell Outs</string>
+    <string name="bad_kerning_name">Bad Kerning</string>
+
+    <string name="sell_outs_intro">Welcome to Sell Outs!</string>
+
+    <string name="setup">Separate the products and features, and shuffle each pile.\n\nEach player draws three product cards and three feature cards to form their hand. \n\nThe player who bought something most recently is the first customer.</string>
+    <string name="the_round">The customer chooses a problem from the problems list, and reads it to the other players. The other players choose one product and one feature card (choosing either side) from their hand to pitch to the customer.</string>
+    <string name="the_pitches">Starting with the player to the customer’s left, that player pitches their product to the customer. The player draws a random feature to add to their product during their pitch (again, choosing either side). Continue until all other players have given their pitch.</string>
+    <string name="end_of_the_round">The customer chooses the product they believe best solves their problem. That product’s player discards the cards they used for their pitch, without refilling their hand. That player is the next customer.\n\nThe other players pick up their product card and one of the feature cards they used and add them back to their hands. Discard the extra feature.\n\nIf there are no feature cards available for drawing, shuffle the discarded feature pile and use it as the new draw pile.</string>
+
+    <string-array name="rule_set">
+
+
+    </string-array>
+
+    <string-array name="problems">
+        <item>        My taxes are late!</item>
+        <item>        The British are occupying my land and I want to start a new country!</item>
+        <item>        Another one of my colonies is trying to gain independence!</item>
+        <item>        Everyone around me has been replaced with lifelike androids!</item>
+        <item>        I need a way to hide a lot of camels quick!</item>
+        <item>        There’s something inside of me that I need to kill!</item>
+        <item>        I need to hide my drug stash!</item>
+        <item>        They’re coming!</item>
+        <item>        Anonymous is after me for something I didn’t do!</item>
+        <item>        Anonymous is after me for something I did!</item>
+        <item>        I have too many hot dogs, and not enough hot dog buns!</item>
+        <item>        I\'m worried I\'ll never accomplish my goals in life!</item>
+        <item>        The holidays are coming up, what should I get my in-laws?</item>
+        <item>        My lab mice have become super intelligent!</item>
+        <item>        I need help finding Waldo!</item>
+        <item>        I need a lot of lubricant for... Reasons!</item>
+        <item>        I make too much money, and now the government wants to take more from me!</item>
+        <item>        My heart has been replaced with a baked potato!</item>
+        <item>        I can\'t handle the stress of being an adult!</item>
+        <item>        I words correct the can\'t order in put!</item>
+        <item>        Aliens have inserted some kind of probe into my butt!</item>
+        <item>        An evil spirit is after me for something my great great grandfather did!</item>
+        <item>        I need to sell this magic lamp!</item>
+        <item>        I accidentally built on top of an ancient Indian burial ground!</item>
+        <item>        Joe Biden is hovering and being really creepy!</item>
+        <item>        I\'m all of out bubblegum</item>
+        <item>        I need help overthrowing an evil dictator to establish world peace!</item>
+        <item>        The retrograde of Mercury is making my life miserable!</item>
+        <item>        I got fired for teabagging the photocoppier and leaving the copies in the printer!</item>
+        <item>        The IT department blocked all the good websites!</item>
+        <item>        My arms are Crane-Game cranes!</item>
+        <item>        I threw away a creepy doll and it keeps coming back!</item>
+        <item>        I suddenly have a strange foreign accent!</item>
+        <item>        I just really like buying stuff!        </item>
+        <item>        Store employees won\'t stop asking me if I need help finding what I\'m looking for!</item>
+        <item>        I need help moving six refridgerators across the country!</item>
+        <item>        I\'m having an existential crisis!</item>
+        <item>        I can\'t focus at work!</item>
+        <item>        I need help breaking a record in the Guinness Book of World Records!</item>
+        <item>        I need to invite Kevin Bacon to my Bacon party but I don\'t know his address!</item>
+        <item>        I\'m starting a Youtube Channel, what will help me get more views?</item>
+        <item>        I have amnesia, I think!</item>
+        <item>        I\'m too awkward to make friends!</item>
+        <item>        I need experience to get a job but I need a job to get experience!</item>
+        <item>        My car broke down and now I\'m being attacked by wild horses!</item>
+        <item>        I need to send a letter but there\'s no post on Sundays!</item>
+        <item>        I haven\'t eaten in three days!</item>
+        <item>        I drunk texted a bunch of people!</item>
+        <item>        Bees!</item>
+        <item>        I don’t want to pay the ransom for someone’s kidnapping!</item>
+        <item>        I bought flowers but I don\'t have anything to put them in!</item>
+        <item>        My lawn is outrageously overgrown!</item>
+        <item>        I can\'t wash the inside of my windshield thanks to my bad back!</item>
+        <item>        I can\'t stop tossing and turning at night!</item>
+        <item>        I need to please my Robot Overlords with my offering!</item>
+        <item>        My grandmother wants to give me all of her furniture but I already have too much!</item>
+        <item>        No matter how many times I wash my son\'s soccer uniform, the grass stains won\'t come out!</item>
+        <item>        Their arrows are blocking out the sun!</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

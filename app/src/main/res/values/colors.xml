@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="badKerningPrimary">#663399</color>
+    <color name="badKerningSecondary">#c2c400</color>
+
+    <color name="sellOutsPrimary">#FFFFFF</color>
+    <color name="sellOutsSecondary">#000000</color>
+    <color name="greenCardBackground">#a6cc70</color>
+    <color name="greenCardAccent">#536638</color>
+    <color name="badKerningPrimaryDark">#481c73</color>
+    <color name="background_material_dark">#424242</color>
+    <color name="navigation_background_dark">#5b5b5b</color>
+</resources>
