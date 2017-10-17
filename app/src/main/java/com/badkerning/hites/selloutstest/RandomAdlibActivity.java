@@ -19,13 +19,13 @@ import android.widget.Toast;
 
 import java.util.Random;
 
-public class MainActivity extends AppCompatActivity
+public class RandomAdlibActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_random_adlib);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -34,10 +34,10 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "dickbutt", Toast.LENGTH_SHORT).show();
+                Toast.makeText(RandomAdlibActivity.this, "dickbutt", Toast.LENGTH_SHORT).show();
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
-                AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+                AlertDialog.Builder builder = new AlertDialog.Builder(RandomAdlibActivity.this);
                 String[] problemArray = getApplicationContext().getResources().getStringArray(R.array.problems);
                 String problemText = problemArray[new Random().nextInt(problemArray.length)];
                 builder.setMessage(problemText);
@@ -133,9 +133,9 @@ public class MainActivity extends AppCompatActivity
         Intent intent = new Intent(this,CreateProblemActivity.class);
         startActivity(intent);
     }
-    private void launchRandomActivity() {
+    private void launchRandomActivity(){
         finish();
-        Intent intent = new Intent(this, RandomAdlibActivity.class);
+        Intent intent = new Intent(this,RandomAdlibActivity.class);
         startActivity(intent);
     }
 }
